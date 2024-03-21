@@ -1,0 +1,42 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage4.master.cs" Inherits="MasterPage4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="images/EliteCircle.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   <%-- <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>--%>
+      <div id="header">
+  <div id="header-content">
+    <h1 id="logo">Digitalized Petrol Token<span class="orange"></span></h1>
+    <%--<div id="header-links">
+      <p> <a href="#">Home</a> | <a href="#">Contact</a> | <a href="#">Site Map</a> </p>
+    </div>--%>
+   <%-- <ul>
+    <li><a href="billings.aspx">History</a></li>
+      <li><a href="changepassword.aspx">Change Password</a></li>
+       <li><a href="login.aspx">Log Out</a></li>
+    </ul>--%>
+  </div>
+</div>
+<div id="content-wrap">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</div>
+    </form>
+</body>
+</html>
